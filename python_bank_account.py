@@ -17,7 +17,7 @@ class Bank:
          if amount<0:
              print("please add amount that should be positive")
          else:
-             print(f" hello {self.username} your account is created sucessfully")  
+             print(f" hello {self.username} your account is created successfully")  
              self.balance=amount+self.balance
              self.transaction_history.append(f"deposited {amount}")
              print( f" Hello {self.username} rupees {amount} is credited to your account")
@@ -32,7 +32,7 @@ class Bank:
          else:
            print("insufficient fund")
            
-     def ministatement(self):
+     def ministallment(self):
          print(f"{self.balance} is your current balance")
          print("Transaction History")
          for transaction in self.transaction_history:
@@ -49,7 +49,7 @@ class Bank:
                
      def change_address(self,new_address):
          self.address=new_address
-         print("address is updated sucessfully")
+         print("address is updated successfully")
          
      def show_details(self):
          print(f"Username:{self.username}")
@@ -86,7 +86,7 @@ while True:
         amount=float(input("enter the withdrawn amount:"))
         d.withdraw(amount)
     elif choice==3:
-        d.ministatement()
+        d.ministallment()
     elif choice==4:
         rate=int(input("enter the rate is:"))
         years=int(input("enter the year:"))
@@ -101,6 +101,7 @@ while True:
         break
     else:
         print("invalid input")
+
 
 
 
