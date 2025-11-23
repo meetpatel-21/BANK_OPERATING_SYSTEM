@@ -48,3 +48,17 @@ Follow the on-screen prompts to interact with the banking system.
 Try edge cases like negative deposits/withdrawals to test validation messages.
 
 Verify that account numbers auto-increment with each new account created in an extended version.
+<img width="975" height="429" alt="image" src="https://github.com/user-attachments/assets/2cf55991-726e-493b-b805-4f414cae26df" />
+<img width="975" height="458" alt="image" src="https://github.com/user-attachments/assets/fe1cccbb-a54e-49c0-9716-b51830c8a149" />
+<img width="975" height="501" alt="image" src="https://github.com/user-attachments/assets/105cab98-afc9-41cd-9979-18a346156c2d" />
+<img width="975" height="507" alt="image" src="https://github.com/user-attachments/assets/740e4ab1-ce5c-4e21-88bd-b07c1d853569" />
+<img width="975" height="508" alt="image" src="https://github.com/user-attachments/assets/b333ce5f-b482-43f9-9052-f03ec9c36888" />
+<img width="975" height="597" alt="image" src="https://github.com/user-attachments/assets/4fd3153e-052e-4dcd-98ec-39c86d2ad677" />
+<img width="975" height="483" alt="image" src="https://github.com/user-attachments/assets/ac1d4d45-8e45-423d-9403-9af2ca4b75b5" />
+
+
+
+
+
+
+
