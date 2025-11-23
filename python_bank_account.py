@@ -39,10 +39,13 @@ class Bank:
              print(transaction)
 
      def add_interest(self,rate,years):
-         interest=self.balance*(rate/100)*years
-         self.balance=self.balance+interest
-         self.transaction_history.append(f"interest added{interest}")
-         print(f"interest added{interest}")
+         if self.balance==0 or self.balnce<0:
+              print("first add money to your account")
+         else:
+           interest=self.balance*(rate/100)*years
+           self.balance=self.balance+interest
+           self.transaction_history.append(f"interest added{interest}")
+           print(f"interest added{interest}")
                
      def change_address(self,new_address):
          self.address=new_address
@@ -98,5 +101,6 @@ while True:
         break
     else:
         print("invalid input")
+
 
 
