@@ -39,7 +39,7 @@ class Bank:
              print(transaction)
 
      def add_interest(self,rate,years):
-         if self.balance==0 or self.balnce<0:
+         if self.balance==0 or self.balance<0:
               print("first add money to your account")
          else:
            interest=self.balance*(rate/100)*years
@@ -101,6 +101,7 @@ while True:
         break
     else:
         print("invalid input")
+
 
 
 
