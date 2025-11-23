@@ -8,7 +8,7 @@ class Bank:
       self.pan_id=pan_id
       self.address=address
       self.balance=0.0
-      password=password
+      self.password=password
       self.account_no=Bank.account_counter
       Bank.account_counter+=1
       self.transaction_history=[]
@@ -32,13 +32,13 @@ class Bank:
          else:
            print("insufficient fund")
            
-     def ministatement(self,rate,years):
+     def ministatement(self):
          print(f"{self.balance} is your current balance")
          print("Transaction History")
          for transaction in self.transaction_history:
              print(transaction)
 
-     def add_interest(self):
+     def add_interest(self,rate,years):
          interest=self.balance*(rate/100)*years
          self.balance=self.balance+interest
          self.transaction_history.append(f"interest added{interest}")
@@ -98,3 +98,4 @@ while True:
         break
     else:
         print("invalid input")
+
