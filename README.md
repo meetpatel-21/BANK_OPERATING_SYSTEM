@@ -1,8 +1,8 @@
 # BANK_OPERATING_SYSTEM
-Overview of the project
+#Overview of the project:
 This is a simple Python-based banking system simulation designed to demonstrate basic banking functionalities including account creation, deposits, withdrawals, interest calculation, address updates, and transaction history tracking. It models core banking operations using object-oriented programming concepts.
 
-Features
+#Features
 1.Create bank accounts with unique account numbers
 2.Deposit and withdraw money with validation checks
 3.Track transaction history for deposits, withdrawals, and interest credited
@@ -11,16 +11,17 @@ Features
 6.Display current account balance and transaction mini-statement
 7.CLI-based user interface for interactive operations
 
-Technologies/tools used
+#Technologies/tools used
 1.Python 
 i)Object-Oriented Programming (OOP)
+ii)def function
+iii)conditional statement
 
 
-Standard input/output for command line interaction
-Steps to install & run the project
-Ensure Python is installed on your system.
-
-Clone the repository:
+#Standard input/output for command line interaction
+1)Steps to install & run the project
+i)Ensure Python is installed on your system.
+ii)Clone the repository:
 text
 git clone <repository-url>
 Navigate to the project directory:
