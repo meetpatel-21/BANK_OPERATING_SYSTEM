@@ -14,7 +14,7 @@ This is a simple Python-based banking system simulation designed to demonstrate 
 - 7.CLI-based user interface for interactive operations
 
 ## Technologies/tools used
-- 1)Python 
+### 1)Python 
 - i)Object-Oriented Programming (OOP)
 - ii)def function
 - iii)conditional statement
