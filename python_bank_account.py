@@ -1,7 +1,7 @@
 class Bank:
      bank_name="HDFC"
      branch_name="A23,Anand Nagar,Thane"
-     account_counter=100
+     account_counter=1000
      #creating account
      def __init__(self,username,pan_id,address,password):
       self.username=username
@@ -15,17 +15,17 @@ class Bank:
 
      def deposit(self,amount):
          if amount<0:
-             print("please add amount hat should be positive")
+             print("please add amount that should be positive")
          else:
              print(f" hello {self.username} your account is created sucessfully")  
              self.balance=amount+self.balance
              self.transaction_history.append(f"deposited {amount}")
-             print( f" Hello {self.username} rupees {amount} is credited to your account"
+             print( f" Hello {self.username} rupees {amount} is credited to your account")
          
      def withdraw(self,amount):
          if amount<0:
              print("withdraw amount should be positive")
-         elif amount<self.balance:
+         elif amount<=self.balance:
             self.balance=self.balance-amount
             self.transaction_history.append(f"withdraw {amount}")
             print(f"{amount} is withdrawn from your account")
@@ -60,13 +60,13 @@ print("------------------------------------------------")
 print(f"Welcome to {Bank.bank_name},{Bank.branch_name}")
 print("------------------------------------------------")
 username=input("enter the name of the user:")
-pan_id=int(input("enter the id of pan card:"))
+pan_id=input("enter the id of pan card:")
 address=input("enter the address:")
 password=input("enter the password:")
 d=Bank(username,pan_id,address,password)
 while True:
     print("------------------------------------------------")
-    print("Selected of the given Zoption \n:")
+    print("Selected of the given option \n:")
     print("1)deposit")
     print("2)withdraw")
     print("3)Ministallment")
@@ -98,4 +98,5 @@ while True:
         break
     else:
         print("invalid input")
+
 
